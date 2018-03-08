@@ -19,7 +19,7 @@ $("#btnHolder").on("click","button", function(){
 //this is relative to button clicked
     var data = $(this).attr("data-term");
     var apiKey = "cnvVfq7XSIKMKEvBcaV7y9oFTHegmF6X",
-    request = "http://api.giphy.com/v1/gifs/search?q=" + data + "&api_key=" + apiKey + "&limit=25";
+    request = "https://api.giphy.com/v1/gifs/search?q=" + data + "&api_key=" + apiKey + "&limit=25";
 
    $.ajax({
        method:"GET",
